@@ -43,4 +43,5 @@ const mapStateToProps = (state) => ({
   newPost: state.posts.item,
 });
 
+
 export default connect(mapStateToProps, { fetchPosts })(Posts);
